@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+article {
+  font-family: Montserrat;
+  font-size: 54px;
+  font-weight: lighter ;
+  max-width: 950px;
+  margin-left: 150px;
+  margin-right: 50px;
+  color: aliceblue;
+}
+p {
+  font-family: Montserrat;
+  font-size: 34px;
+  
+  color: aliceblue;
+}
+li {
+  padding:40px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold ;
+}
+
+</style>
+</head>
+
+</html>

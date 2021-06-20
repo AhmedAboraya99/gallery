@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link  rel="stylesheet" href="gallery.css" >
+<title>My Gallery</title>
+<style>
+    .url{
+        text-decoration: none;
+        color: inherit;   
+    }
+    .container {
+
+  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+  background:url("images/island.jpeg") ;
+  display:flex;flex-direction: row;
+}
+.box{
+        position: relative;
+        display: inline-block; 
+        display: flex;
+    flex-direction:row;
+    flex-grow: 1 ;
+    flex-wrap: wrap; 
+    }
+    .btn{
+        position: absolute;
+        border-radius: 39px;
+        fill="none"; stroke-width="1";
+         /* Adjust this value to move the positioned div up and down */
+        background : none;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: medium;
+        color: #73A1C2;
+        width: 240px ;
+        height: 78px;
+        
+    }
+
+</style>
+</head>
+<body style="background:#188162 ;">
+    
+    <nav style="background-color: #188162;">
+        <div style="width: 1360px; height:70px;color:white; display:flex;">
+          
+            <ul style="flex-grow: 1; display:flex;  list-style:none;align-items:center">
+                <a class="url" href="gallery.html"><img src="images/gallery-icon.png" width="50px" height="50" ></a>
+                   
+                <li style="margin-left:25px;"><a class="url" href="gallery.html">Home</a></li>
+                <li>Discover</li>
+                <li>Live</li>
+                <li>categories</li>
+                <li>Fashion</li>
+                <li>Trending</li>
+                <li>Places</li>
+                <div style="flex-grow: 0.6; display:flex; justify-content:flex-end;">
+                 <img src="images/Search.png" width="20px" height="20"></div>
+                
+            </ul>
+        </div>
+    </nav>
+    <div class = "container">
+        
+    <svg xmlns="http://www.w3.org/2000/svg" width="16.709" height="28" viewBox="0 0 16.709 28" style="margin-top: 200px;margin-left: 50px">
+        <path id="Icon_Chevron_left" data-name="Icon Chevron left" d="M27.115,5.166l-10.7,10.7A2.967,2.967,0,0,1,14,16.694a2.976,2.976,0,0,1-2.418-.831L.885,5.166A3.027,3.027,0,0,1,5.164.885L14,9.721,22.834.885a3.027,3.027,0,0,1,4.282,4.282Z" transform="translate(16.709) rotate(90)" fill="#f4f4f4" fill-rule="evenodd"/>
+      </svg>
+    <span>
+    <article style="margin-top: 100px;">Far far away, behind the word mountains,</article>
+    <p style="margin-left: 150px; margin-right: 50px;">far from the countries Vokalia and Consonantia,</p>
+        <p style="margin-left: 150px; margin-bottom: 100px;"> there live the blind texts.</p>
+    </span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16.709" height="28" viewBox="0 0 16.709 28" style="margin-top: 200px;">
+            <path id="Icon_Chevron_right" data-name="Icon Chevron right" d="M27.115,5.166l-10.7,10.7A2.967,2.967,0,0,1,14,16.694a2.976,2.976,0,0,1-2.418-.831L.885,5.166A3.027,3.027,0,0,1,5.164.885L14,9.721,22.834.885a3.027,3.027,0,0,1,4.282,4.282Z" transform="translate(0 28) rotate(-90)" fill="#f4f4f4" fill-rule="evenodd"/>
+          </svg>    
+        
+    </div>
+    <div class="box">
+    
+    <img src="images/boy_sunset.jpg" style="width:50%; ">
+   
+    <img src="images/starry_sky.jpg" style="width:50%; " >
+    <ul style="flex-grow: 1; display:flex;  list-style:none;align-items:center">
+    <button class="btn" style ="margin-bottom: 200px;" ><a class="url" href="photo.html"> Travel </a></button>
+        <button class="btn" style = "margin-bottom: 200px; margin-left: 50%;" > Natural views </button>
+</ul>
+</div>
+<div class="box" style="background-color: #188162;" >
+    <p>Be a photographer</p>
+    <button class = "btn" style=" background-color:#101143;
+    color: #BCCEDB; border: 1px solid #707070; margin-top: 20px ; margin-left: 50% ; border-radius: 0px; font-size:28px ;">Share with US !</button>
+</div>
+<hr style="border: 1px solid  #BA9267;">
+</body>
+<footer style="background-color: #188162;">
+    <div style="width: 1360px; height:70px;color:white; display:flex;">
+      
+        <ul style="flex-grow: 1; display:flex;  list-style:none;align-items:center">
+            <li style="margin-left:25px;">Activity</li>
+            <li>Discover</li>
+            <li>Events</li>
+            <li>Partners</li>
+            <li>About Us</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+</footer>
+</html>
