@@ -2,7 +2,7 @@ Frontend Gallery Project
 
 This project showcases a multi-page image gallery with categorized content, built using HTML, and CSS.
 ![image](https://github.com/AhmedAboraya99/gallery/assets/54743198/f5611c0e-0023-4fa6-8e10-ab9fbb3f2e61)
-![image](https://github.com/AhmedAboraya99/gallery/assets/54743198/e1266077-9ace-4a9b-9fef-d9e4da8a301a)
+![image](https://github.com/AhmedAboraya99/gallery/assets/54743198/51755884-e241-4fb9-b902-6eab70c31b7e)
 
 Features:
 
